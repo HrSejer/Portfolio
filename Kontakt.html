@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">Portfolio.</a>
+    
+            <nav class="navbar">
+                <a href="index.html" style="--i:1;" title="Forsiden af min Portfolio" class="active">Hjem</a>
+                <a href="OmMig.html"style="--i:2;" title="Læs mere om mig">Om Mig</a>
+                <a href="Erfaring.html"style="--i:3;" title="Mine erfaringer">Erfaring</a>
+                <a href="Projekter.html"style="--i:4;" title="Mine projekter">Projekter</a>
+                <a href="Kontakt.html"style="--i:5;" title="Mine kontaktoplysninger">Kontakt</a>
+            </nav>
+    </header>
+    <div id="Kontakt">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Kontakt mig</h1>
+                    <br>
+                    <a href="mailto:hrsejer74@gmail.com" target="_blank" title="Send mig en mail!"><i class='bx bxs-envelope'></i>hrsejer74@gmail.com</a>
+                    <p><i class='bx bxs-phone'></i>+45 42 34 28 55</p>
+                    <a href="PortfolioImages/CV-Christian-S.-Nielsen.pdf" download class="btn1" title="Mit cv">Download mit cv</a>
+                </div>
+                
+                <div class="contact-right">
+                    <h1>Skriv til mig!</h1>
+                    <form action="https://formsubmit.co/hrsejer74@gmail.com" method="POST">
+                        <input type="text" name="Navn" placeholder="Dit navn" required>
+                        <input type="email" name="Email" placeholder="Din email" required>
+                        <textarea name="Besked" rows="6" placeholder="Din Besked"></textarea>
+                        <button type="submit" class="btn1">Submit</button>
+                        <br>
+                        <br>
+                        <h5>Du vil blive ført til en anden side ved at trykke submit for at undgå spam...</h5>
+                    </form>
+                </div>
+            </div>
+    </div>
+    </body>
+    </html>
