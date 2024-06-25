@@ -334,8 +334,8 @@ animation: slideTop 1s ease forwards;
  {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    justify-content:center;
     align-items: top;
     padding: 70px 10% 0;
 }
